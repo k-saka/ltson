@@ -67,7 +67,8 @@ func showHelpAndExit() {
 	msg := `Usage of %s: [options] [FILE_NAME]
 Options:
     -i --indent  Enable json indent
-    -h --help    Show this message`
+    -h --help    Show this message
+`
 
 	fmt.Fprintf(os.Stderr, msg, os.Args[0])
 	os.Exit(1)
